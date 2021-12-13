@@ -1,4 +1,4 @@
-* {
+{
     margin:0;
     padding:0;
 }
@@ -73,9 +73,9 @@ a {
 .text {
     float: left;
     width:850px;
-    height:600px;
+    height:520px;
     font: 20px;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 .text h2 {
     font-size: 30px;
@@ -91,9 +91,9 @@ a {
     text-align: left;
     color: rgb(90, 90, 90);
 }
-fieldset {
+.text fieldset {
     border: 0;
-    border-top: 1px solid #0161ac;
+    border-top: 1px solid #161616;
     margin: 10px 0px 20px 0px;
 }
 .text p{
@@ -111,6 +111,18 @@ fieldset {
 .subimg ul img{
     width: 100%;
 }
+.line {
+    float: left;
+    width:1300px;
+    height:10px;
+    margin: 10px auto;
+}
+.line fieldset {
+    border: 0;
+    border-top: 1px solid #161616;
+    width: 1300px;
+    margin: 0px 0px 0px 0px;
+}
 .news{
     float: none;
     height:350px;
@@ -124,8 +136,16 @@ fieldset {
     font-weight: 400;
     text-align: left;
 }
+.paper h2{
+    width: 700px;
+    font-size: 22px;
+    color: rgb(90, 90, 90);
+    margin: 0px 0px 10px 0px;
+}
+
 .paper p{
     width: 700px;
+    font-size: 16px;
     color: rgb(90, 90, 90);
     margin: 0px 0px 10px 0px;
 }
