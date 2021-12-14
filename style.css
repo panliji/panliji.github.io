@@ -10,7 +10,7 @@
     width:800px;
     margin:auto;
 }
-li {
+.header li {
     list-style: none;
 }
 a {
@@ -149,4 +149,24 @@ a {
     color: rgb(90, 90, 90);
     margin: 0px 0px 10px 0px;
 }
+.Conference{
+    height: 600px;
+}
+.Conference w{
+    height: 600px;
+}
+.Conference h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    color:#0161ac;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+.Conference ol{
+    margin:auto;
+    padding-left:20px;
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+}
