@@ -149,24 +149,92 @@ a {
     color: rgb(90, 90, 90);
     margin: 0px 0px 10px 0px;
 }
-.Conference{
-    height: 600px;
+/*定义盒子*/
+.tab_contents {
+    width: 1300px;
+    height: 800px;
 }
-.Conference w{
-    height: 600px;
-}
-.Conference h3{
-    font-size: 30px;
-    font-weight: 400;
-    text-align: left;
-    color:#0161ac;
-    margin-top: 10px;
-    margin-bottom: 10px;
 
+.tab_contents w {
+    height: 800px;
 }
-.Conference ol{
-    margin:auto;
-    padding-left:20px;
-    font-size: 16px;
+/*导航横排*/
+.tab_contents .tab_nav {
+    display: flex;
+}
+
+/*导航块样式*/
+.tab_contents .tab_nav li {
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #e5e9ea;
+    margin-right: 2px;
     color: rgb(90, 90, 90);
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+/*设置导航块效果 */
+
+.tab_contents .tab_nav li h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tab_contents .tabNav_active {
+    background: #f9f9f9 !important;
+}
+/*面板界面*/
+.tab_contents .tab_box {
+    position: relative;
+    min-height: 150px;
+    padding: 2em;
+    color: rgb(90, 90, 90);
+    background: #ffffff;
+}
+/*面板块*/
+.tab_contents .tab_box li {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex !important;
+    align-items: center;
+    padding: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+/*设置面板过渡效果*/
+.tab_contents .tabBox_active {
+    visibility: visible !important;
+    opacity: 1 !important;
+    
+}
+
+/*面板内容样式*/
+.tab_contents .tab_box li div {
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.tab_contents .tab_box li h2 {
+    top: 0px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color:#0161ac;
+    text-indent: -1em;
+}
+/*文本溢出隐藏效果*/
+.tab_contents .tab_box li p {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    text-indent: -1em;
+
 }
